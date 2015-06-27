@@ -138,7 +138,7 @@ app.get '/chats/:chat_id', ensureSession, (req, res) ->
         chat = models.Chat.findOne {_id: req.params.chat_id}, (err, chat) ->
           if err
             res.send(500, err)
-          else 
+          else
             res.render 'chat', {title: TITLE, user: JSON.stringify(user), user_dict: user, chat: JSON.stringify(chat)}
 
 app.get '/logout', (req, res) ->
