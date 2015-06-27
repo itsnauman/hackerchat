@@ -46,13 +46,13 @@ AutoDeploy: Enable WebSockets, add a remote and push your changes. Simple as tha
 
 - express
 - jade  (HTML)
-- coffee-script  (JS) 
+- coffee-script  (JS)
 - less-middleware  (CSS)
 - mongoose
 - colors
 - socket.io
 - zeroclipboard
-    
+
 ### APIs
 
 - expresss
